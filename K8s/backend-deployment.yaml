@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gcr.io/final-project-431720/backend-image
+        image: gcr.io/project-container-432002/backend-image
         ports:
         - containerPort: 5000
