@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: gcr.io/final-project-431720/frontend-image
+  repository: gcr.io/project-container-432002/frontend-image
   pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
