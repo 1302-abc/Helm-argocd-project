@@ -17,3 +17,5 @@ spec:
         image: "{{ .Values.image.repository }}"
         ports:
         - containerPort: {{ .Values.service.targetPort }}
+
+
