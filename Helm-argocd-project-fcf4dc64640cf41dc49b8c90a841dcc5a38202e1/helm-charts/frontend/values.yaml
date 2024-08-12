@@ -1,8 +1,0 @@
-replicaCount: 2
-image:
-  repository: gcr.io/project-container-432002/frontend-image
-  pullPolicy: IfNotPresent
-service:
-  type: LoadBalancer
-  port: 80
-  targetPort: 3000
